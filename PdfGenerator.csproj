@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+	<TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>PdfGenerator</RootNamespace>
+	<EnableNETAnalyzers>false</EnableNETAnalyzers>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\draft.png" />
+    <None Remove="Resources\L_placeholder.png" />
+    <None Remove="Resources\M_placeholder.png" />
+    <None Remove="Resources\O_placeholder.png" />
+    <None Remove="Resources\S_placeholder.png" />
+    <None Remove="Sample Data\data.json" />
+    <None Remove="Sample Data\page.json" />
+    <None Remove="Sample Data\template.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="itext7" Version="7.2.3" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<Content Include="Resources\draft.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Resources\L_placeholder.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Resources\M_placeholder.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Resources\O_placeholder.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Resources\S_placeholder.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Sample Data\data.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Sample Data\page.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Sample Data\template.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
+</Project>

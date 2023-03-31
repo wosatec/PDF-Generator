@@ -1,0 +1,91 @@
+﻿{
+  "colors": {
+    "default": [ 0, 0, 0 ],
+    "default-background": [ 0, 0, 0, 0 ],
+    "transparent": [ 0, 0, 0, 0 ],
+    "black": [ 0, 0, 0 ],
+    "default-black": [ 0, 0, 0 ],
+    "green": [ 0, 255, 0 ],
+    "white": [ 255, 255, 255 ]
+  },
+  "fonts": {
+    "default": "C:\\Windows\\Fonts\\calibri.ttf",
+    "default-icon": "C:\\Windows\\Fonts\\webdings.ttf"
+  },
+  "header": {
+    "startsAtPage": 1,
+    "elements": [
+      {
+        "contentKey": "header",
+        "width": 0,
+        "height": 4,
+        "expandMode": 2,
+        "type": 2,
+        "position": {
+          "left": -3,
+          "top": -14
+        },
+        "format": {
+          "size": 8,
+          "color": "default",
+          "background": "white",
+          "fontBold": true
+        }
+      },
+      {
+        "color": "default",
+        "width": 185,
+        "height": 0.4,
+        "type": 5,
+        "position": {
+          "left": 1,
+          "top": -12.5
+        }
+      }
+    ]
+  },
+  "draft": {
+    "elements": [
+      {
+        "contentKey": "draft",
+        "width": 180,
+        "height": 0,
+        "type": 3,
+        "position": {
+          "left": 10,
+          "top": 10
+        }
+      }
+    ]
+  },
+  "footer": {
+    "startsAtPage": 1,
+    "elements": [
+      {
+        "contentKey": "footer",
+        "width": 0,
+        "height": 3,
+        "type": 2,
+        "position": {
+          "left": 0,
+          "top": 260
+        },
+        "format": {
+          "size": 6,
+          "color": "default",
+          "textAlign": 2
+        }
+      },
+      {
+        "color": "default",
+        "width": 0,
+        "height": 0.4,
+        "type": 5,
+        "position": {
+          "left": 0,
+          "top": 255
+        }
+      }
+    ]
+  }
+}

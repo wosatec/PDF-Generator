@@ -1,0 +1,73 @@
+{
+  "contentKey": "page-contents",
+  "margin": {
+    "top": 12.7,
+    "left": 12.7,
+    "right": 12.7,
+    "bottom": 12.7
+  },
+  "elements": [
+    {
+      "width": 0,
+      "height": 6,
+      "type": 2,
+      "position": {
+        "left": -1,
+        "top": -2
+      },
+      "content": [],
+      "format": {
+        "size": 18,
+        "font": "",
+        "fontBold": false,
+        "fontItalic": false
+      },
+      "contentKey": "text"
+    },
+    {
+      "width": 0,
+      "height": 6,
+      "type": 2,
+      "position": {
+        "left": 10,
+        "top": 20
+      },
+      "content": [],
+      "format": {
+        "size": 18,
+        "font": "default",
+        "fontBold": false,
+        "fontItalic": false
+      },
+      "contentKey": "with.deep.key"
+    },
+    {
+      "width": 0,
+      "height": 6,
+      "type": 2,
+      "position": {
+        "left": 10,
+        "top": 30
+      },
+      "content": [],
+      "format": {
+        "size": 18,
+        "font": "default-icon",
+        "fontBold": false,
+        "fontItalic": false
+      },
+      "contentKey": "from-array[0]"
+    },
+    {
+      "width": 0,
+      "height": 20,
+      "type": 3,
+      "position": {
+        "left": 10,
+        "top": 40
+      },
+      "content": [],
+      "contentKey": "sample-image"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PDF Generator": {
+      "commandName": "Project",
+      "commandLineArgs": "--template \".\\Sample Data\\template.json\" --pages \".\\Sample Data\\page.json\" --data \".\\Sample Data\\data.json\" --output \".\\output\\test.pdf\""
+    }
+  }
+}
